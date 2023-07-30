@@ -40,7 +40,7 @@ const DetalleProyecto = () => {
                         </div>
                     </div>
                 </div>
-            </div> : <></>)
+            </div> : <div key={proy.id}></div>)
         }
         
         </div>
