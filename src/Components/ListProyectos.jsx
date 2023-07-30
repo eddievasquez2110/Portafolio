@@ -102,7 +102,7 @@ const ListProyectos = () => {
             {
                 proyectos.map(proy => {
                     const { id, imagen, titulo, descripcion, tag, etiquetas } = proy;
-                    return <div className="flex pb-10 w-3/6 p-8" key={id}>
+                    return <div className="flex pb-10 2-full md:w-3/6 pt-5 md:p-10" key={id}>
                     <Link to={`/proyectos/${id}`} className="flex w-full rounded-lg shadow-lg hover:shadow-indigo-500/100 hover:scale-105 hover:text-indigo-500/100">
                         <div className=" relative overflow-hidden rounded overflow-hidden shadow-lg text-center h-full w-full">
                             <VscGithub className="icon absolute top-2 left-2 text-black" />
