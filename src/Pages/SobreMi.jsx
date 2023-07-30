@@ -10,7 +10,7 @@ const SobreMi = () => {
                     <img src={photo} className='shadow-2xl shadow-indigo-600/40'/>
                 </div>
                 <div className='text-black-300 text-center  justify-center w-2/4 columna_barras'>
-                    <h3 className='text-indigo-800/80 text-sm font-bold text-2xl'>EDDIE OMAR VASQUEZ ESPINOZA</h3>
+                    <h3 className='text-indigo-800/80 text-md font-bold text-2xl'>EDDIE OMAR VASQUEZ ESPINOZA</h3>
                     <div className='contenedor_barras'>
                         <h4 className='pt-10 text-start text-xs md:text-lg'>CONOCIMIENTO:</h4>
                         <div className='barras'>
