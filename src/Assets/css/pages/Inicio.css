@@ -167,6 +167,9 @@
 }
 
 @media (min-width:320px) {
+    .banner{
+        height: 150rem;
+    }
     .contenedor_menu{
         visibility: hidden;
         position: absolute;
@@ -191,11 +194,11 @@
         align-items:center;
     }
     .marcoPhoto{
-        padding-top: 20px;
+        padding-top: 30px;
         justify-items: center;
     }
     .contenedor_barras{
-        width: 300px;
+        width: 280px;
         font-size: 10px;
     }
     .contenedor_banner__titulo {
@@ -203,6 +206,13 @@
     }
     .contenedor_nube img{
         height: 1090px;
+    }
+    .contenedor_redes{
+        gap: 20px;
+    }
+    .logo{
+        visibility: hidden;
+        position: absolute;
     }
 }
 
@@ -246,7 +256,13 @@
     .contenedor_nube img{
         height: 900px;
     }
-    
+    .contenedor_redes{
+        gap: 10px;
+    }
+    .logo{
+        visibility: visible;
+        position: relative;
+    }
 }
 
 @media (min-width:1198px) {
@@ -292,7 +308,13 @@
     .contenedor_nube img{
         height: 900px;
     }
-    
+    .contenedor_redes{
+        gap: 60px;
+    }
+    .logo{
+        visibility: visible;
+        position: relative;
+    }
 }
 
 @media (min-width:1281px) {
@@ -336,5 +358,12 @@
     }
     .contenedor_nube img{
         height: 990px;
+    }
+    .contenedor_redes{
+        gap: 60px;
+    }
+    .logo{
+        visibility: visible;
+        position: relative;
     }
 }
