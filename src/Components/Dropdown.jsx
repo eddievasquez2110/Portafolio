@@ -44,7 +44,7 @@ const Content = ({ align = 'right', width = '48', contentClasses = 'py-1 bg-whit
     let widthClasses = '';
 
     if (width === '48') {
-        widthClasses = 'w-[33rem]';
+        widthClasses = 'w-[21rem]';
     }
 
     return (
