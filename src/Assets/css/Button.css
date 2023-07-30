@@ -1,0 +1,67 @@
+
+.primario {
+    background: #fefefe13; /* color de fondo */
+    color: #fff; /* color de fuente */
+    border: 2px solid #fff; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 10px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.primario:hover {
+    color: white;
+    border: none;
+    animation: animation_boton 4s infinite;
+    animation-delay: 3s;
+}
+
+.primario::after{
+    content: "";
+    background: linear-gradient(90deg, rgba(246, 205, 93, 0.64) 0%, rgba(224, 153, 11, 0.36) 35%, rgba(216, 197, 24, 0.256) 100%);/* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.primario:hover::after{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+.secundario {
+    
+    border: 3px, solid;
+    border-radius: 10px;
+    border-color: rgba(40, 26, 94, 0.6);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    padding: 10px;
+}
+
+.secundario:hover {
+    background-color: rgba(40, 26, 94, 0.37);
+    color: white;
+}

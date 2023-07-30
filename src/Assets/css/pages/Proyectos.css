@@ -1,0 +1,19 @@
+.contenido_proyect {
+    padding-top: 9rem;
+}
+  
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.icon1{
+    width: 20px;
+    height: 20px;
+}
+
+.contenedor_banner__proyectos{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}

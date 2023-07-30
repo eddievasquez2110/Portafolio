@@ -1,0 +1,19 @@
+.banner__titulo{
+    background-image: repeating-linear-gradient(rgb(30, 27, 41,0.5), rgba(130, 48, 238, 0.3));
+}
+.marcoPhoto {
+    clip-path: polygon(14% 0, 0 34%, 0 84%, 100% 100%, 100% 17%);
+    width: 30%;
+    height: 20%;
+    display: flex;
+}
+
+.marcoPhoto img {
+    border-radius: 80%;
+    
+}
+.contenedor_banner__titulo{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}

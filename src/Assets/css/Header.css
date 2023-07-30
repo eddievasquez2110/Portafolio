@@ -1,0 +1,66 @@
+.contenedor_header {
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    color: white;
+    columns: 2;
+    column-gap: 2rem;
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    font-size: 18px;
+}
+
+.contenedor_logo {
+    padding-left: 40px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: initial;
+    color: cornflowerblue;
+    font-weight: 600;
+    font-size: 30px;
+    gap: 30px;
+    color: rgba(230, 244, 244, 0.742);
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.contenedor_logo p {
+    margin-top: 70px;
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor_logo img {
+    height: 40px;
+    width: 120px;
+    
+}
+
+.contenedor_menu {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.contenedor_menu a {
+    display: flex;
+    text-align: center;
+    width: 100px;
+    justify-content: center;
+    height: 80px;
+}
+
+.contenedor_menu__responsivo {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 7%;
+}
