@@ -12,7 +12,7 @@ const SobreMi = () => {
                 <div className='text-black-300 text-center  justify-center w-11/12 md:w-2/4 columna_barras'>
                     <h3 className='text-indigo-800/80 text-md font-bold text-2xl'>EDDIE OMAR VASQUEZ ESPINOZA</h3>
                     <div className='contenedor_barras'>
-                        <h4 className='pt-10 text-start text-xs md:text-lg'>CONOCIMIENTO:</h4>
+                        <h4 className='pt-10 text-start text-xs md:text-lg'>HABILIDADES:</h4>
                         <div className='barras'>
                             <Barras bgcolor="#4F46E5" progress="74" label="HTML" height={22}/>
                             <Barras bgcolor="#4F46E5" progress="72" label="CSS" height={22}/>
