@@ -35,8 +35,9 @@ function Inicio() {
         </div>
         <div className='contenedor_titulo'>
           <h1 className='text text-2'>FRONT END JR</h1>
-          <p className='p-10'>Me concentro en el diseño y desarrollo de páginas o aplicativos,
-          actualmente me caracterizo por ser programador junior FRONT END</p>
+          <p className='p-10'>El gusto por la tecnologia es el nucleo de los trabajos realizados, Me enfoco en el diseño y funcionalidad
+          de componentes para tener una página agradable para el usuario. Estoy interesado en demostrar esas habilidades en una empresa
+          con relación a tecnología, ser competente y demostrar eficacia en las actividades que se me asigne</p>
           <div className='contenedor_button'>
               <Button color='primario' href='#proyectos'>Empezar recorrido</Button>
           </div>
@@ -47,8 +48,8 @@ function Inicio() {
             <div className='contenedor_banner__titulo pt-10'>
                 <div className='flex flex-inline relative justify-center contenedor_nube'>
                     <div className='titulo blur-xl absolute'/>
-                    <h2 className='flex z-2 pt-5 relative text-white justify-center text-center '>MAS SOBRE MI</h2>
-                    <img src={titulo} className='absolute flex top-0 z-0 w-full pt-5 '/>
+                    <h2 className='flex z-2 pt-5 relative text-white justify-center text-center'>MAS SOBRE MI</h2>
+                    <img src={titulo} className='absolute flex top-0 z-0 w-full pt-5'/>
                 </div>
                 <SobreMi />
             </div>
@@ -63,7 +64,6 @@ function Inicio() {
                 <Carrusel />
             </div>
       </section>
-
       <Contactos />
     </main>
   )
