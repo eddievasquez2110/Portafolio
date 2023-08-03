@@ -20,7 +20,7 @@ function Inicio() {
       <div className='contenedor_inicio'>
         <div className='contenedor_banner flex flex-col'>
           <img src={cohete} className='cohete' />
-          <div className='person overflow-hidden bottom-40 left-40'>
+          <div className='person overflow-hidden bottom-40'>
             <img src={message}/>
           </div>
           <h3 className='texto_auto mt-10'>Hola soy EDDIE, contacteme por : </h3>
