@@ -25,7 +25,7 @@
 
 .primario::after{
     content: "";
-    background: linear-gradient(90deg, rgba(246, 205, 93, 0.64) 0%, rgba(224, 153, 11, 0.36) 35%, rgba(216, 197, 24, 0.256) 100%);/* color de fondo hover */
+    background: linear-gradient(90deg, rgba(219, 170, 38, 0.749) 0%, rgba(224, 153, 11, 0.536) 35%, rgba(216, 197, 24, 0.399) 100%);/* color de fondo hover */
     position: absolute;
     z-index: -1;
     padding: 16px 20px;
