@@ -36,8 +36,7 @@ function Inicio() {
         <div className='contenedor_titulo'>
           <h1 className='text text-2'>FRONT END JR</h1>
           <p className='p-10'>El gusto por la tecnologia es el nucleo de los trabajos realizados, Me enfoco en el diseño y funcionalidad
-          de componentes para tener una página agradable para el usuario. Estoy interesado en demostrar esas habilidades en una empresa
-          con relación a tecnología, ser competente y demostrar eficacia en las actividades que se me asigne</p>
+          de componentes para tener una página agradable para el usuario. Estoy interesado en demostrar las habilidades adquiridas, ser competente y demostrar eficacia en las actividades que se me asigne</p>
           <div className='contenedor_button'>
               <Button color='primario' href='#proyectos'>Empezar recorrido</Button>
           </div>
