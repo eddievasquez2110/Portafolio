@@ -66,27 +66,6 @@ export const datos = [
             "api",
             "Trabajo en equipo"
         ]
-    },
-    {
-        "id": 4,
-        "imagen": system_et,
-        "titulo": "Sistema de Especificaciones Tecnicas",
-        "descripcion": "Sistema realizado en equipo como practicas en la UNCP",
-        "demo": "https://github.com/eddievasquez2110/system_et",
-        "link": "https://github.com/eddievasquez2110/system_et",
-        "tag": [
-            "Laravel",
-            "React",
-            "Html5",
-            "TailWindCss"
-        ],
-        "etiquetas" : [
-            "Dev",
-            "SCRUM",
-            "FullStack",
-            "api",
-            "Trabajo en equipo"
-        ]
     }
 ]
 
