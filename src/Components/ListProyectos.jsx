@@ -14,7 +14,7 @@ export const datos = [
         "id": 1,
         "imagen": challenge,
         "titulo": "Challenge Encriptador",
-        "descripcion": "Encriptador y desencriptador de texto, reto organizado por Alura Latam",
+        "descripcion": "Encriptador y desencriptador de texto, reto organizado por Alura Latam. Donde se siguió una estructura, diseño y funcionalidad haciendo uso de FIGMA y TRELLO",
         "demo": "https://eddievasquez2110.github.io/challenge_encriptador/",
         "link": "https://github.com/eddievasquez2110/challenge_encriptador",
         "tag": [
@@ -32,7 +32,7 @@ export const datos = [
         "id": 2,
         "imagen": org,
         "titulo": "Pagina Web ORG",
-        "descripcion": "pagina web donde se puede agregar colaboradores, dar like y personalizar color de fondo de cards",
+        "descripcion": "Se realizó el curso de FRONTEND y se requirió hacer una pagina web donde su funcionalidad sea lo siguiente: agregar colaboradores, dar like y personalizar color de fondo de cards. Asi mismo se hizo uso de FIGMA y TRELLO para seguir el diseño y estructura de la pagina web",
         "demo": "https://org-neon-beta.vercel.app/",
         "link": "https://github.com/eddievasquez2110/org",
         "tag": [
@@ -50,7 +50,7 @@ export const datos = [
         "id": 3,
         "imagen": system_et,
         "titulo": "Sistema de Especificaciones Tecnicas",
-        "descripcion": "Sistema realizado en equipo como practicas en la UNCP",
+        "descripcion": "En mis practicas en la UNCP, se requirió desarrollar un sistema de especificaciones tecnicas para agilizar el proceso de solicitar ET(especificaciones tecnicas) según sea el requerimiento de la compra de diversos equipos de cómputo para el area usuaria(areas, facultades y docentes). Para ello se hizo uso del metodo ágil SCRUM para desarrollar agilmente el proyecto y en equipo",
         "demo": "https://github.com/eddievasquez2110/system_et",
         "link": "https://github.com/eddievasquez2110/system_et",
         "tag": [
