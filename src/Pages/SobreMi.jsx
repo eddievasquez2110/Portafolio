@@ -1,6 +1,6 @@
 
 import '../Assets/css/pages/SobreMi.css'
-import photo from '../Assets/img/edd.png'
+import photo from '../Assets/img/EDDI.jpg'
 import Barras from '../Components/Barras'
 const SobreMi = () => {
    
