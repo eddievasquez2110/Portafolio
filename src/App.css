@@ -2,6 +2,7 @@
 .estrella {
   clip-path: polygon(50% 0%, 61% 31%, 89% 43%, 60% 56%, 50% 89%, 36% 56%, 10% 44%, 38% 30%);
   background: #fff;
+  background-repeat: repeat;
   opacity: 0;
   position: absolute;
   right: -150;
