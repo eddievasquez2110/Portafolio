@@ -25,7 +25,7 @@ function App() {
     </Routes>
     <Footer />
     </Router>
-    <div className="estrellas">
+    <div className="estrellas overflow flex">
       <div className="estrella"></div>
       <div className="estrella"></div>
       <div className="estrella"></div>
