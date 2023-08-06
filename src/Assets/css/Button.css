@@ -1,5 +1,5 @@
 
-.primario {
+.primarioPanel {
     background: #fefefe13; /* color de fondo */
     color: #fff; /* color de fuente */
     border: 2px solid #fff; /* tamaño y color de borde */
@@ -14,13 +14,58 @@
     align-items: center;
     display: flex;
     font-size: 20px;
+    font-weight: 600;
 }
 
-.primario:hover {
+.primarioPanel:hover {
     color: white;
     border: none;
     animation: animation_boton 4s infinite;
     animation-delay: 3s;
+}
+
+.primarioPanel::after{
+    content: "";
+    background: linear-gradient(90deg, rgba(219, 170, 38, 0.749) 0%, rgba(224, 153, 11, 0.536) 35%, rgba(216, 197, 24, 0.399) 100%);/* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.primarioPanel:hover::after{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.primario {
+    background: linear-gradient(90deg, rgba(219, 171, 38, 0.956) 0%, rgba(224, 153, 11, 0.858) 35%, rgba(216, 197, 24, 0.648) 100%);/* color de fondo hover */
+    color: #fff; /* color de fuente */
+    border: 2px solid #fff; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 10px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    gap: 10px;
 }
 
 .primario::after{
@@ -47,21 +92,64 @@
     transition: all 0.5s;
 }
 
-
-.secundario {
-    
-    border: 3px, solid;
+.box{
+    background-color: #fff;
+    padding: 6px;
+    display: grid;
+    place-items: center;
+    width: 100%;
     border-radius: 10px;
-    border-color: rgba(40, 26, 94, 0.6);
-    color: white;
-    justify-content: center;
-    align-items: center;
+}
+.gradient-text{
+    background-color: yellow;
+    background-image: linear-gradient(90deg, rgba(219, 171, 38, 0.956) 0%, rgba(224, 153, 11, 0.858) 35%, rgba(216, 197, 24, 0.648) 100%);/* color de fondo hover */
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
     display: flex;
-    height: 80px;
-    padding: 10px;
+    place-items: center;
+    gap: 15px;
 }
 
-.secundario:hover {
-    background-color: rgba(40, 26, 94, 0.37);
-    color: white;
+
+.secundario {
+    background: linear-gradient(90deg, rgba(219, 171, 38, 0.956) 0%, rgba(224, 153, 11, 0.858) 35%, rgba(216, 197, 24, 0.648) 100%);/* color de fondo hover */
+    background-repeat: repeat;
+    padding: 2px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.secundario::after{
+    content: "";
+    background: linear-gradient(90deg, rgba(224, 182, 66, 0.749) 0%, rgba(213, 158, 49, 0.536) 35%, rgba(216, 197, 24, 0.607) 100%);/* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.secundario:hover::after{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
