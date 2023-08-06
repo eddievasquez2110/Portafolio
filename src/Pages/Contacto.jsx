@@ -61,7 +61,8 @@ const Contactos = () => {
                                     <label className="hidden">Numero de Celular</label>
                                     <input type="tel" name="tel" id="tel" placeholder="N° Celular" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
                                 </div>
-                                <Link to={`https://wa.me/51925271546?text=Hola,%20soy%20${nombre},%20vengo%20de%20la%20p%C3%A1gina%20web%20de%20su%20portafolio%20cuentame%20mas%20sobre%20ti,%20por%20favor.`} target='_blank' className="md:w-32 bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-10 hover:bg-indigo-500 transition ease-in-out duration-300" >
+                                <Link to={`https://wa.me/51925271546?text=Hola,%20soy%20${nombre},%20vengo%20de%20la%20p%C3%A1gina%20web%20de%20su%20portafolio%20cuentame%20mas%20sobre%20ti,%20por%20favor.`} target='_blank' 
+                                className="md:w-32 primario font-bold py-3 px-6 mt-10" >
                                     Contactar
                                 </Link>
                             </form>

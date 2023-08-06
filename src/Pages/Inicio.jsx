@@ -38,7 +38,7 @@ function Inicio() {
           <p className='p-10'>El gusto por la tecnologia es el nucleo de los trabajos realizados, Me enfoco en el diseño y funcionalidad
           de componentes para tener una página agradable para el usuario. Estoy interesado en demostrar las habilidades adquiridas, ser competente y demostrar eficacia en las actividades que se me asigne</p>
           <div className='contenedor_button'>
-              <Button color='primario' href='#proyectos'>Empezar recorrido</Button>
+              <Button color='primarioPanel' href='#proyectos'>Empezar recorrido</Button>
           </div>
         </div>
       </div>

@@ -4,7 +4,9 @@ import { useState, useEffect } from "react"
 import { BiLogoGithub } from "react-icons/bi"
 import { FaPlayCircle } from "react-icons/fa"
 import '../Assets/css/pages/DetalleProyectos.css'
+import { iconos } from "../Components/Carrusel"
 import { datos } from "../Components/ListProyectos"
+import Button from "../Components/Button"
 
 const DetalleProyecto = () => {
 
@@ -21,22 +23,48 @@ const DetalleProyecto = () => {
             proyectos.map(proy => proy.id == id ? 
                 
                 <div className="contenedor_detproyectos rounded-lg shadow-lg " key={proy.id}>
-                <div className="titulo overflow-hidden bg-black rounded-t-lg mt-10 md:mt-0">
+                <div className='h-14 bg-gradient-to-r from-sky-500 to-indigo-500 blur-md absolute z-20'/>
+                <div className="overflow-hidden p-5 text-center text-indigo-500/100 uppercase bg-gradient-to-r from-gray-300 to-gray-200 rounded-t-lg mt-10 md:mt-0">
+                    
                     <h2 className="text-xl md:text-2xl">
                         {proy.titulo}
                     </h2>
                 </div>
                 <div className="contendor_detproyectos_items flex flex-col md:flex-row p-5 pt-10 md:p-10 justify-evenly md:gap-10">
-                    <img className="h-80 w-full md:w-2/5 shadow-lg shadow-blue-200 rounded-lg xs:pt-5" src={proy.imagen} />
-                    <div className="flex flex-col w-full md:w-2/4">
-                        <Link to={proy.demo} className=" flex items-center justify-center gap-3 bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 rounded-lg mt-10 hover:bg-indigo-500 transition ease-in-out duration-300">
-                            <FaPlayCircle className="icon1" />Visualizar Demo
-                        </Link>
-                        <Link to={proy.link} target="_blank" className="md:w-30 flex items-center justify-center gap-3 bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 rounded-lg mt-10 hover:bg-indigo-500 transition ease-in-out duration-300">
-                            <BiLogoGithub className="icon1" />Visualizar GitHub
-                        </Link>
-                        <div className="pt-10 text-justify p-4 text-gray-400">
+                    <div className="">
+                        <img className="h-80 w-full shadow-lg shadow-blue-200 rounded-lg xs:pt-5" src={proy.imagen} />
+                    </div>
+                    
+                    <div className="flex flex-col w-full md:w-2/4 justify-around">
+                        <div className="flex flex-col gap-5">
+                            <Button color="primario" href={proy.demo}>
+                                <FaPlayCircle className="icon1" />Visualizar Demo
+                            </Button>
+                            
+                            <Button color="secundario" href={proy.link}>
+                            <div className='box'>
+                                <h1 className='gradient-text'>
+                                    <BiLogoGithub className="icon1 text-yellow-600" />Visualizar GitHub
+                                </h1>
+                            </div>
+                                    
+                            </Button>
+                            
+                        </div>
+                        <div className="pt-6 text-justify p-4 text-gray-400">
                             <p className="">{proy.descripcion}</p>
+                        </div>
+                        <div className=" flex w-full justify-center">
+                        {
+                            proy.tag.map(tagi => {
+                            return (
+                                <span className="inline-flex gap-2 justify-center bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mt-2" id="i" key={tagi}>      
+                                    {iconos(tagi)}
+                                    {tagi}
+                                </span> 
+                            )
+                            })
+                        }
                         </div>
                     </div>
                 </div>
