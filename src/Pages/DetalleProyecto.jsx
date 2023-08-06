@@ -23,9 +23,7 @@ const DetalleProyecto = () => {
             proyectos.map(proy => proy.id == id ? 
                 
                 <div className="contenedor_detproyectos rounded-lg shadow-lg " key={proy.id}>
-                <div className='h-14 bg-gradient-to-r from-sky-500 to-indigo-500 blur-md absolute z-20'/>
-                <div className="overflow-hidden p-5 text-center text-indigo-500/100 uppercase bg-gradient-to-r from-gray-300 to-gray-200 rounded-t-lg mt-10 md:mt-0">
-                    
+                <div className="overflow-hidden p-5 text-center text-indigo-800 text-4xl font-extrabold tracking-tight uppercase bg-gradient-to-r from-gray-200 to-gray-100 rounded-t-lg mt-10 md:mt-0">
                     <h2 className="text-xl md:text-2xl">
                         {proy.titulo}
                     </h2>
@@ -35,7 +33,7 @@ const DetalleProyecto = () => {
                         <img className="h-80 w-full shadow-lg shadow-blue-200 rounded-lg xs:pt-5" src={proy.imagen} />
                     </div>
                     
-                    <div className="flex flex-col w-full md:w-2/4 justify-around">
+                    <div className="flex flex-col w-full md:w-2/4 mt-6 md:mt-0 justify-around">
                         <div className="flex flex-col gap-5">
                             <Button color="primario" href={proy.demo}>
                                 <FaPlayCircle className="icon1" />Visualizar Demo
@@ -54,7 +52,7 @@ const DetalleProyecto = () => {
                         <div className="pt-6 text-justify p-4 text-gray-400">
                             <p className="">{proy.descripcion}</p>
                         </div>
-                        <div className=" flex w-full justify-center">
+                        <div className="flex flex-wrap w-full justify-center">
                         {
                             proy.tag.map(tagi => {
                             return (
