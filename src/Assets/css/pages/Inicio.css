@@ -379,6 +379,9 @@
         height: 100vh;
         gap: 40px;
     }
+    .contenedor_button{
+        padding: 10px;
+    }
     .person {
         top: 450px;
         left: 7%;
