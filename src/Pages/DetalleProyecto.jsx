@@ -23,7 +23,7 @@ const DetalleProyecto = () => {
             proyectos.map(proy => proy.id == id ? 
                 
                 <div className="contenedor_detproyectos rounded-lg shadow-lg " key={proy.id}>
-                <div className="overflow-hidden p-5 text-center text-indigo-800 text-4xl font-extrabold tracking-tight uppercase bg-gradient-to-r from-gray-200 to-gray-100 rounded-t-lg mt-10 md:mt-0">
+                <div className="p-5 text-center text-indigo-800 text-4xl font-extrabold tracking-tight uppercase bg-gradient-to-r from-gray-200 to-gray-100 rounded-t-lg mt-10 md:mt-0">
                     <h2 className="text-xl md:text-2xl">
                         {proy.titulo}
                     </h2>
