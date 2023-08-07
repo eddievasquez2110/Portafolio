@@ -44,8 +44,8 @@ function Inicio() {
       </div>
 
       <section id="sobreMi">
-            <div className='contenedor_banner__titulo pt-10'>
-                <div className='flex flex-inline relative justify-center contenedor_nube'>
+            <div className='contenedor_banner__titulo pt-10 '>
+                <div className='flex flex-inline relative justify-center contenedor_nube '>
                     <div className='titulo blur-xl absolute'/>
                     <h2 className='flex z-2 pt-5 relative text-white justify-center text-center'>MAS SOBRE MI</h2>
                     <img src={titulo} className='absolute flex top-0 z-0 w-full pt-5'/>
