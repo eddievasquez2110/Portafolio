@@ -186,18 +186,24 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        padding: 5%;
+        padding: 8%;
         padding-right: 6%;
         padding-left: 6%;
     }
     .contenedor_sobremi{
-        margin-top: 50px;
+        margin-top: 150px;
+        padding: 5%;
+        flex-direction: column;
+        align-items:center;
+    }
+    .contenedor_sobremi_descripcion{
         padding: 5%;
         flex-direction: column;
         align-items:center;
     }
     .marcoPhoto{
-        padding-top: 30px;
+        width: 70%;
+        height: 30%;
         padding: 20px;
         justify-items: center;
     }
@@ -206,10 +212,10 @@
         font-size: 10px;
     }
     .contenedor_banner__titulo {
-        height: 1120px;
+        height: 1330px;
     }
     .contenedor_nube img{
-        height: 1090px;
+        height: 1280px;
     }
     .contenedor_redes{
         gap: 20px;
@@ -220,7 +226,7 @@
     }
 }
 
-@media (min-width:820px) {
+@media (min-width:720px) {
     .contenedor_menu{
         visibility: hidden;
         position: absolute;
@@ -240,15 +246,20 @@
         padding: 16%;
     }
     .contenedor_sobremi{
-        margin-top: 50px;
-        margin-left: -40px;
-        padding: 6%;
-        flex-direction: row;
+        margin-top: 120px;
+        flex-direction: column;
         align-items:center;
     }
+    .contenedor_sobremi_descripcion{
+        margin-left: -60px;
+        padding: 5%;
+        flex-direction: row;
+    }
     .marcoPhoto{
-        padding-top: 10%;
-        padding: 20px;
+        padding-top: 7%;
+        width: 400px;
+        height: 20%;
+        padding: 30px;
     }
     .contenedor_barras{
         padding-top: 20px;
@@ -272,7 +283,7 @@
     }
 }
 
-@media (min-width:1198px) {
+@media (min-width:908px) {
     .contenedor_inicio{
         display: flex;
         flex-direction: row;
@@ -301,9 +312,8 @@
         visibility: hidden;
         position: absolute;
     }
-    .contenedor_sobremi{
-        padding-top: 10px;
-        display: inline-flex;
+    .contenedor_sobremi_descripcion{
+        padding-top: 2px;
         flex-direction: row;
     }
     .contenedor_banner{
@@ -327,11 +337,16 @@
         height: 900px;
     }
     .contenedor_sobremi{
-        margin-top: 25px;
-        margin-left: 20px;
+        padding: 8%;
+    }
+    .contenedor_sobremi_descripcion{
         flex-direction: row;
+        padding: 2%;
     }
     .marcoPhoto{
+        padding-top: 7%;
+        width: 370px;
+        height: 20%;
         padding-top: 10px;
         padding: 30px;
     }
@@ -344,7 +359,7 @@
     }
 }
 
-@media (min-width:1288px) {
+@media (min-width:1128px) {
     .contenedor_inicio{
         display: flex;
         flex-direction: row;
@@ -374,23 +389,26 @@
         visibility: visible;
     }
     .contenedor_sobremi{
-        margin-top: 30px;
-        flex-direction: row;
         padding: 6%;
     }
+    .contenedor_sobremi_descripcion{
+        margin-left: 100px;
+        flex-direction: row;
+    }
     .marcoPhoto{
-        padding-top: 10px;
+        width: 400px;
+        height: 20%;
         padding: 30px;
     }
     .contenedor_barras{
         padding-top: 40px;
-        width: 650px;
+        width: 750px;
     }
     .contenedor_banner__titulo {
-        height: 1030px;
+        height: 1040px;
     }
     .contenedor_nube img{
-        height: 990px;
+        height: 1000px;
     }
     .contenedor_redes{
         gap: 60px;
