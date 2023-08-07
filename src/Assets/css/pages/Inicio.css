@@ -182,6 +182,10 @@
         position: absolute;
         visibility: hidden;
     }
+    .contenedor_titulo h1{
+        padding: 6px;
+        font-size: 70px;
+    }
     .contenedor_inicio{
         display: flex;
         flex-direction: column;
