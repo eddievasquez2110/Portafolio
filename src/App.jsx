@@ -18,9 +18,11 @@ function App() {
     <Router>
     <Header />
     <Routes>
-        <Route path='/' element={<Inicio />} />
+        <Route path='/' element={<Inicio />} /> 
         <Route path='/proyectos' element={<Proyectos />} />
         <Route path='/proyectos/:id' element={<DetalleProyecto />} />
+        <Route path='/#sobreMi' element={<Inicio />} />
+        <Route path='/#contactos' element={<Inicio />} />
         <Route path='*' element={<Page404 />} />
     </Routes>
     <Footer />

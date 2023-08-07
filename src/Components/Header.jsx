@@ -20,8 +20,8 @@ function Header() {
         <div className='contenedor_menu'>
           <NavLink to='/'>Inicio</NavLink>
           <NavLink to='/proyectos'>Proyectos</NavLink>
-          <NavLinkSection href='#sobreMi'>Sobre mi</NavLinkSection>
-          <NavLinkSection href='#contactos'>Contacto</NavLinkSection>
+          <NavLinkSection href='/#sobreMi'>Sobre mi</NavLinkSection>
+          <NavLinkSection href='/#contactos'>Contacto</NavLinkSection>
         </div>
         <div className='contenedor_menu__responsivo'>
             <Dropdown>
@@ -31,8 +31,8 @@ function Header() {
               <Dropdown.Content>
                 <NavLinkResponsive to='/'>Inicio</NavLinkResponsive>
                 <NavLinkResponsive to='/proyectos'>Proyectos</NavLinkResponsive>
-                <NavLinkResponsive href='#sobreMi'>Sobre mi</NavLinkResponsive>
-                <NavLinkResponsive href='#contactos'>Contacto</NavLinkResponsive>
+                <NavLinkResponsive href='/#sobreMi'>Sobre mi</NavLinkResponsive>
+                <NavLinkResponsive href='/#contactos'>Contacto</NavLinkResponsive>
               </Dropdown.Content>
             </Dropdown>
         </div>
