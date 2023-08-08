@@ -8,7 +8,7 @@ const SobreMi = () => {
             <div className='flex flex-col md:mt-20 relative contenedor_sobremi'>
                 <div className='xs:p-2 md:p-0 w-full'>
                     <h3 className='text-indigo-500 text-3xl md:text-4xl'>EDDIE OMAR VASQUEZ ESPINOZA</h3>
-                    <h4 className='text-gray-400 pt-4 text-xl'>Ingeniería de Sistemas y Computación</h4>
+                    <h4 className='text-gray-400 pt-4 text-xl'>Bach. Ingeniería de Sistemas y Computación</h4>
                     <div className='w-11/12 h-2 bg-indigo-500 mt-4 overflow rounded-md blur-sm' />
                 </div>
                 <div className='flex flex-inline w-full relative items-center contenedor_sobremi_descripcion'>
